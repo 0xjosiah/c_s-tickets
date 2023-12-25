@@ -13,10 +13,10 @@ export default function Scene({ targetPosition }) {
     const { width, height } = useThree((state) => state.viewport)
 
     /* General purpose controls, attach to whatever for adjustment */
-    const { position, rotation } = useControls({
-        position: [ 0, 0, 0 ],
-        rotation: [ 0, 0, 0 ],
-    })
+    // const { position, rotation } = useControls({
+    //     position: [ 0, 0, 0 ],
+    //     rotation: [ 0, 0, 0 ],
+    // })
 
     /* Camera position if needed */
     // const { position } = useThree((state) => state.camera)
@@ -53,7 +53,7 @@ export default function Scene({ targetPosition }) {
                 {/* <Scroll> */}
 
                     {/* <SectionTitle text='Merry Christmas!' navTo='/' position={position}> */}
-                        <Pic image={logo} position={position} size={2} targetPosition={targetPosition}/>
+                        <Pic image={logo} position={[ 0, 0, 0 ]} size={4} targetPosition={targetPosition}/>
                     {/* </SectionTitle> */}
                 {/* </Scroll> */}
             {/* </ScrollControls> */}

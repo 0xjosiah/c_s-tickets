@@ -8,8 +8,8 @@ export default function Pic({ image, position, size, targetPosition }) {
     // const { x, y, z } = targetPosition
     useFrame(({ mouse }) => {
         if (planeRef.current) {
-            // planeRef.current.lookAt(.2 * mouse.x, .2 * mouse.y, Math.PI)
-            planeRef.current.lookAt(targetPosition)
+            planeRef.current.lookAt(.5 * mouse.x, .5 * mouse.y, Math.PI)
+            // planeRef.current.lookAt(targetPosition)
         }
     })
 

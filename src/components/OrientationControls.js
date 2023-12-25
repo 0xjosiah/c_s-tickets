@@ -5,7 +5,7 @@ const OrientationControls = ({ setTargetPosition }) => {
     const handleOrientation = (event) => {
       // Use event.alpha, event.beta, event.gamma to get rotation data
       // Adjust these values based on your requirements
-      const alpha = event.alpha || 0;
+      const alpha = event.alpha * 3 || 0;
       const beta = event.beta || 0;
       const gamma = event.gamma || 0;
 
