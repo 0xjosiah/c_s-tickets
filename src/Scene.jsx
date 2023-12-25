@@ -53,7 +53,7 @@ export default function Scene({ targetPosition }) {
                 {/* <Scroll> */}
 
                     {/* <SectionTitle text='Merry Christttmas!' navTo='/' position={position}> */}
-                        <Pic image={logo} position={[ 0, 0, 0 ]} size={4} targetPosition={targetPosition}/>
+                        <Pic image={logo} position={[ 0, 0, 0 ]} size={3} targetPosition={targetPosition}/>
                     {/* </SectionTitle> */}
                 {/* </Scroll> */}
             {/* </ScrollControls> */}
