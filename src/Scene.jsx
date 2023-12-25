@@ -52,7 +52,7 @@ export default function Scene({ targetPosition }) {
             {/* <ScrollControls pages={8} infinite horizontal> */}
                 {/* <Scroll> */}
 
-                    {/* <SectionTitle text='Merry Christmas!' navTo='/' position={position}> */}
+                    {/* <SectionTitle text='Merry Christttmas!' navTo='/' position={position}> */}
                         <Pic image={logo} position={[ 0, 0, 0 ]} size={4} targetPosition={targetPosition}/>
                     {/* </SectionTitle> */}
                 {/* </Scroll> */}
